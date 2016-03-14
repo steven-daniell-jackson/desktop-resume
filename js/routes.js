@@ -14,12 +14,14 @@ app.config(['$routeProvider',
         })
         .when('/experience', {
             templateUrl: 'templates/experience.html',
+            controller: 'experienceCtrl'
         })
         .when('/profile', {
             templateUrl: 'templates/profile.html',
         })
         .when('/employment', {
             templateUrl: 'templates/employment.html',
+            controller: 'employmentCtrl'
         })
         .when('/references', {
            templateUrl: 'templates/references.html',

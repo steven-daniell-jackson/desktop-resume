@@ -9,20 +9,13 @@ module.exports = function(grunt) {
 			dist: {
 				options: {
 					style: 'expanded'
-				},
-				files: {
-					'css/main.css': 'sass/main.scss'
 				}
 			}
 		},
 	    watch: {
 	    	options: { livereload: true },
-	      	sass: {
-	        	files: ['sass/main.scss'],
-	        	tasks: ['newer:sass:dist'],
-	      	},
 	      	html: {
-	      		files: ['index.html', '**/*.html', '**/*.js' ],
+	      		files: ['index.html', '**/*.html', '**/*.js', '**/*.css'  ],
 	      	}
 	    },
 	    bumpup: {

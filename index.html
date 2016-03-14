@@ -28,6 +28,15 @@
 
     <title>Desktop Resume - Steven Jackson</title>
 
+<script type="text/javascript">
+  <!--
+  if (screen.width <= 800) {
+    window.location = "http://steven-daniell-jackson.github.io/mobile-resume-ionic/#/resume/home";
+  }
+  //-->
+</script>
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <!-- font Awesome CSS -->
@@ -59,7 +68,11 @@
 </head>
 
 <body ng-app="desktopResume">
-{{2 + 4}}
+<div class="new-notification text-center">
+Check out my NEW personal 
+<a href="http://steven-daniell-jackson.github.io/diary/#/home" target="_blank">Diary - App (Desktop and Mobile)</a> and my 
+<a href="http://steven-daniell-jackson.github.io/angular-projects/#/calculator" target="_blank">Angular Projects</a> <br>
+</div>
     <div id="wrapper">
 
         
@@ -94,10 +107,20 @@
         $(document).ready(function() {
             // Call Menu Toggler
             appMaster.menuToggler();
-            // Example Call anotherFunction
-            appMaster.anotherFunction();
+
         });
     </script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66650747-6', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 </body>
 

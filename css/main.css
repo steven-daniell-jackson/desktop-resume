@@ -28,7 +28,7 @@ body {
   position: fixed;
   opacity: .99;
   left: 0;
-  background: #64676c;
+  background: #000;
   height: 100%;
   overflow-y: auto;
   -webkit-transition: all .25s ease-in-out;
@@ -83,6 +83,67 @@ body {
   text-decoration: none;
 }
 
+h2 {margin-top: 0px;}
+a {
+  text-decoration: none; color: #000;
+  -webkit-transition: all .50s ease;
+  -moz-transition: all .50s ease;
+  -ms-transition: all .50s ease;
+  -o-transition: all .50s ease;
+  transition: all .50s ease;
+}
+
+a:hover {
+  text-decoration: none; 
+  color: #CC2929;
+}
+.profile-links i {
+  font-size:40px; 
+  color: #000;
+  padding-bottom: 10px;
+}
+
+.skill-level {
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.download-links i {
+  font-size:40px; 
+  color: #000;
+  padding-bottom: 10px;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #000;
+}
+
+
+blockquote.skin {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  background-color: #000;
+  color: #fff;
+  border-left: 5px solid red;
+}
+
+div.trigger {
+  display: none;
+}
+
+div.new-notification {
+  background-color: #effeb9 !important; 
+  padding: 10px 0px;
+}
+
+div.new-notification a{
+  color: #CC2929;
+}
+
 @media (max-width: 768px) {
   #wrapper {
     padding-left: 0;
@@ -99,5 +160,6 @@ body {
     left: -300px;
   }
 }
+
 
 /*# sourceMappingURL=main.css.map */

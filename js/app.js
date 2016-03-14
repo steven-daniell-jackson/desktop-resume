@@ -1,3 +1,3 @@
 var app = angular.module('desktopResume', [
-'resumeRoutes', 'resume-directives'
+'resumeRoutes', 'resume-directives', 'app.controllers'
 ]);
